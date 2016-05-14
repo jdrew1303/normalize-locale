@@ -52,7 +52,7 @@ function normalizeLocale(locale, language){
     lookupObj = {name: locale[0].toUpperCase()+locale.substr(1).toLowerCase()};
   }
 
-  var languages = ['eng'];
+  var languages = ['en']; //defaults to english
   if(!lookupObj.name || lookupObj.name !== 'Global' ){
     // console.log(lookupObj)
     if( (data = lookup.countries(lookupObj)) ){

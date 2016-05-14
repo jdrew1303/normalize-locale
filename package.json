@@ -1,0 +1,23 @@
+{
+  "name": "normalize-locale",
+  "version": "0.0.1",
+  "description": "When dealing with location data, you sometimes want to enter 'Kenya' or 'Ken' or 'KE' and have that normalized for you. Right? Here is a solution!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "normalize",
+    "locale",
+    "language",
+    "country",
+    "ISO",
+    "code"
+  ],
+  "author": "Anthony Mugendi <ngurumugz@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "country-data": "0.0.24",
+    "langs": "^1.0.2"
+  }
+}
